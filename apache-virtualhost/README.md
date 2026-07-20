@@ -29,6 +29,8 @@ Deploy and configure an Apache HTTP Server on Rocky Linux 9 hosting two independ
 
 - /etc/httpd/conf.d/lab1.conf
 - /etc/httpd/conf.d/lab2.conf
+- /var/www/lab1
+- /var/www/lab2
 
 ## Commands
 
