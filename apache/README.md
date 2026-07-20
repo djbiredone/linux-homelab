@@ -122,7 +122,7 @@ Restarts the Apache service and applies the configuration changes.
 
 systemctl status httpd
 
-Verifies if the http deamon is running
+Verifies if the http daemon is running
 
 
 firewall-cmd --list-services
