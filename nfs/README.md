@@ -43,7 +43,7 @@ Deploy and configure an NFS Server on Rocky Linux 9 to share a directory with a 
 dnf install nfs-utils
 
 
-Installs the NFS utilities required for both the NFS server
+Installs the NFS utilities required for the NFS server
 
 
 #### Enable and start the service
@@ -95,7 +95,7 @@ Permanently allows the services required for NFS through firewalld and reloads t
 dnf install nfs-utils
 
 
-Installs the NFS utilities required for both the NFS client
+Installs the NFS utilities required for the NFS client
 
 
 #### Verify availability of resources shared by server
