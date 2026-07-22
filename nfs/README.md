@@ -76,6 +76,16 @@ chmod 0777 /nfs_data
 Gives read, write and execute permissions all users
 
 
+#### Configure firewall
+
+sudo firewall-cmd --permanent --add-service=nfs
+sudo firewall-cmd --permanent --add-service=rpc-bind
+sudo firewall-cmd --permanent --add-service=mountd
+sudo firewall-cmd --reload
+
+
+Permanently allows the services required for NFS through firewalld and reloads the firewall configuration
+
 
 ### NFS Client:
 
