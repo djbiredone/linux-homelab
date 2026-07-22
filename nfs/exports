@@ -1,3 +1,1 @@
 /nfs_data 192.168.1.0/24(rw,no_root_squash)
-/rhome 192.168.1.0/24(rw,no_root_squash)
-/shares 192.168.1.0/24(rw,no_root_squash)
