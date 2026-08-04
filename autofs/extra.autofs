@@ -1,0 +1,2 @@
+/rhome /etc/auto.home --timeout=60s
+/- /etc/auto.data --timeout=60s
